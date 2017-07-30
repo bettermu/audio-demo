@@ -1,0 +1,182 @@
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+
+}
+
+h3, p {
+    margin:0;
+    padding:0;
+}
+img {
+	vertical-align: top;
+}
+button {
+    border:none;
+    outline: none;
+}
+
+body {
+	background-color:#17181b;
+	font-size:0.293333rem;
+}
+
+
+.outer-wrap {
+	width:100%;
+}
+
+.outer-wrap .header {
+	height:1.96rem;
+	padding:0.253333rem 0.32rem 0.426667rem 0.4rem;
+	box-sizing: border-box;
+}
+.outer-wrap .header .title h3 {
+	color:#fff;
+	line-height:1.013333rem;
+	height:1.013333rem;
+	font-size:0.4rem;
+	font-weight:normal;
+}
+.outer-wrap .header .title span {
+	color:#64686f;
+	font-size:0.293333rem;
+}
+.outer-wrap .header .title span.num {
+	color:#fff;
+}
+
+.audio-wrap {
+	margin-top:0.4rem;
+	height:0.666667rem;
+	
+	border-radius:0.266667rem;
+	background-color:#212428;
+}
+.audio-wrap button {
+	height:0.666667rem;
+	padding:0 10px;
+	line-height:0.666667rem;
+	text-align:center;
+	border-radius:0.266667rem;
+	background-color:#212428;
+	color:#44474c;
+	font-size:0.293333rem;
+}
+.audio-wrap button.active {
+	background-color:#3c424f;
+	color:#fff;
+}
+
+
+.img-bar {
+	padding:0 0.4rem;
+	position:relative;
+}
+.img-bar img {
+	
+	width:100%;
+}
+
+
+.img-bar .img-icon {
+	display:block;
+	position:absolute;
+	bottom:0.133333rem;
+	right:0.533333rem;
+	background:url('../img/img-bar-icon.png') no-repeat;
+	background-size:1.2rem 0.533333rem ;
+	height:0.533333rem;
+	width:1.2rem;
+	color:#fff;
+	text-indent:0.613333rem;
+	line-height:0.533333rem;
+	font-size:0.293333rem;
+}
+
+.article {
+	padding:0.573333rem 0.4rem 1.173333rem;
+}
+
+.article p {
+	font-size:0.333333rem;
+	line-height:0.666667rem;
+	color:#fff;
+	margin-bottom:0.666667rem;
+}
+
+
+
+.bottom-bar {
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	height:1.173333rem;
+	background-color:#2b2e34;
+	padding: 0 0.4rem;
+	box-sizing: border-box;
+}
+.bottom-bar h3 {
+	font-weight:normal;
+	color:#fff;
+	font-size:0.346667rem;
+	height:1.173333rem;
+	line-height:1.173333rem;
+}
+
+
+
+.bottom-bar .zan {
+	margin-top:0.453333rem;
+	margin-left:0.613333rem;
+	color:#c5ccd8;
+	font-size:0.293333rem;
+}
+.bottom-bar .zan img {
+	height:0.373333rem;
+	height:0.32rem;
+}
+.bottom-bar .talk {
+	margin-top:0.453333rem;
+	margin-left:0.493333rem;
+	color:#c5ccd8;
+	font-size:0.293333rem;
+}
+.bottom-bar .talk img {
+	width:0.346667rem;
+	height:0.346667rem;
+}
+
+.bottom-bar .control {
+	margin-top:0.266667rem;
+	width:0.666667rem;
+	height:0.666667rem;
+	cursor:pointer;
+}
+.bottom-bar .play {
+	
+	background:url('../img/play.png') no-repeat;
+	background-size:0.666667rem 0.666667rem;
+}
+.bottom-bar .pause {
+	
+	background:url('../img/pause.png') no-repeat;
+	background-size:0.666667rem 0.666667rem;
+}
+
+.bottom-bar  .progress-wrap {
+	width:100%;
+	height:0.04rem;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.bottom-bar  .progress-wrap .progress {
+	width:0%;
+	height:0.04rem;
+	background-color:#38d388;
+}
+
